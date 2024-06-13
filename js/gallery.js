@@ -86,7 +86,7 @@ galleryContainer.addEventListener("click", (evt) => {
   if (target.nodeName !== "IMG") return;
   const largeImageUrl = target.dataset.source;
   const modal = basicLightbox.create(
-    `<img src="${largeImageUrl}" alt = '${target.alt}' width='1112' heigth='640'/>`
+    `<img src="${largeImageUrl}" alt = '${target.alt}' width='1112' height='640'/>`
   );
   modal.show();
 });

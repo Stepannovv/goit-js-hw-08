@@ -10,3 +10,7 @@
   width: 360px;
   height: 200px;
 }
+.gallery-image:hover {
+  scale: 105%;
+  transition-duration: 800ms;
+}
